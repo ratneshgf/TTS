@@ -1,0 +1,15 @@
+//Q19
+#include<stdio.h>
+int main()
+{
+	int a,b,c;
+	printf("Enter 3 nos ");
+	scanf("%d %d %d",&a,&b,&c);
+	if(a>b && a>c)
+	printf("Max no = %d\n",a);
+	else if(b>c)
+	printf("Max no = %d\n",b);
+	else
+	printf("Max no = %d\n",c);
+	return 0;
+}
